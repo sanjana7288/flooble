@@ -1,0 +1,114 @@
+body {
+  background: #29293d;
+  font-family: "Roboto", sans-serif;
+  margin-top: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+}
+/*********/
+/*typography*/
+/********/
+a {
+  color: white;
+  text-decoration: none;
+  transition: duration 0.25sec;
+}
+
+a:hover {
+  color: rgb(224, 222, 222);
+}
+
+/**********/
+/**general***/
+/*********/
+.right-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.left-side a,
+.right-side a {
+  margin-right: 25px;
+  font-size: 18px;
+}
+
+/**********/
+/**nav***/
+/*********/
+
+nav,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/**********/
+/****center***/
+/*********/
+
+.content-sec {
+  display: flex;
+  max-width: 750px;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.mag-glass {
+  right: 696px;
+  bottom: 8px;
+}
+
+.mic-phone {
+  left: 699px;
+  bottom: 11px;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar a {
+  position: absolute;
+}
+
+.logo-cont {
+  margin-top: -224px;
+}
+
+.btns a {
+  color: #707070;
+  background: #f8f8f8;
+  padding: 25px;
+  border-radius: 5px;
+  position: absolute;
+}
+.btns a:hover {
+  background: #b4b4b4;
+  color: white;
+}
+
+.flooble-src {
+  left: 585px;
+}
+/***********/
+/***footer**/
+/************/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: grey;
+  padding: 25px 10px;
+}
